@@ -1,0 +1,18 @@
+spring:
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://114.55.59.8:3306/blog?useUnicode=true&useSSL=false&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username:  root
+    password:  333qwer1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+logging:
+  level:
+    root: info
+    com.hgc: debug
+  file:
+    name: log/blog-dev.log

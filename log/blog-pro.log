@@ -1,0 +1,4 @@
+2021-03-24 10:37:12.364  INFO 5248 --- [restartedMain] com.hgc.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_271 on DESKTOP-BH4G3RT with PID 5248 (D:\code\blog\target\classes started by HGC in D:\code\blog)
+2021-03-24 10:37:12.366  INFO 5248 --- [restartedMain] com.hgc.blog.BlogApplication             : The following profiles are active: pro
+2021-03-24 10:37:13.341  WARN 5248 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-24 10:37:13.413  INFO 5248 --- [restartedMain] com.hgc.blog.BlogApplication             : Started BlogApplication in 1.386 seconds (JVM running for 1.875)
